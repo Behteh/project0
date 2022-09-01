@@ -1,0 +1,54 @@
+15:13:30.882 [main] DEBUG fileLogger - Get User from Database
+15:19:53.848 [main] DEBUG fileLogger - Get User from Database
+15:20:22.735 [main] DEBUG fileLogger - Get User from Database
+16:48:44.030 [main] DEBUG fileLogger - Get User from Database
+16:54:23.145 [main] DEBUG fileLogger - Get User from Database
+17:08:08.169 [main] DEBUG fileLogger - Get User from Database
+17:08:54.552 [main] DEBUG fileLogger - Get User from Database
+17:10:01.222 [main] DEBUG fileLogger - Get User from Database
+17:14:14.442 [main] DEBUG fileLogger - Get User from Database
+17:14:18.289 [main] DEBUG fileLogger - Get User from Database
+17:14:36.480 [main] DEBUG fileLogger - Get User from Database
+17:18:28.493 [main] DEBUG fileLogger - Get User from Database
+17:44:00.450 [main] DEBUG fileLogger - Get User from Database
+18:49:59.722 [main] DEBUG fileLogger - Get User from Database
+18:55:54.072 [main] DEBUG fileLogger - Get User from Database
+18:55:56.808 [main] DEBUG fileLogger - Get User from Database
+19:00:37.079 [main] DEBUG fileLogger - Get User from Database
+19:14:19.326 [main] DEBUG fileLogger - Get User from Database
+19:29:04.844 [main] DEBUG fileLogger - Get User from Database
+19:30:12.868 [main] DEBUG fileLogger - Get User from Database
+19:31:47.932 [main] DEBUG fileLogger - Get User from Database
+19:43:52.220 [main] DEBUG fileLogger - Get User from Database
+19:43:59.922 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+19:57:10.876 [main] DEBUG fileLogger - Get User from Database
+19:59:07.163 [main] DEBUG fileLogger - Get User from Database
+20:00:22.065 [main] DEBUG fileLogger - Get User from Database
+20:01:26.300 [main] DEBUG fileLogger - Get User from Database
+20:02:06.536 [main] DEBUG fileLogger - Get User from Database
+21:02:19.698 [main] DEBUG fileLogger - Get User from Database
+21:02:25.099 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+21:12:57.750 [main] DEBUG fileLogger - Get User from Database
+21:29:16.621 [main] DEBUG fileLogger - Get User from Database
+22:08:13.714 [main] DEBUG fileLogger - Get User from Database
+22:14:42.409 [main] DEBUG fileLogger - Get User from Database
+22:21:04.008 [main] DEBUG fileLogger - Get User from Database
+22:21:08.870 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:27:36.376 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:27:50.687 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:33:42.118 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:36:05.835 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:36:37.151 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:36:52.440 [main] ERROR fileLogger - org.postgresql.util.PSQLException: ERROR: syntax error at end of input
+  Position: 99
+22:44:41.584 [main] DEBUG fileLogger - Get User from Database
+22:47:13.476 [main] DEBUG fileLogger - Get User from Database
+22:48:23.923 [main] DEBUG fileLogger - Get User from Database
