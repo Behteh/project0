@@ -9,7 +9,7 @@ public class CustomerMenu{
 	private static Scanner sc;
 	private static AccountManagement accountmanagement = new AccountManagement();
 
-	public void menu(String[] args) {
+	public void menu() {
 		System.out.println("Select your desired operation \n W: Withdraw \n"
 				+ " D: Deposit \n T: Transfer \n Q: Quit");
 		String options = null;

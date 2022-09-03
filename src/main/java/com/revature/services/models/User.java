@@ -32,11 +32,11 @@ public class User {
 		
 	}
 
-	public Integer getUser_id() {
+	public Integer getuser_id() {
 		return user_id;
 	}
 
-	public void setUser_id(Integer user_id) {
+	public void setuser_id(Integer user_id) {
 		this.user_id = user_id;
 	}
 
@@ -91,6 +91,9 @@ public class User {
 		return status;	
 	}
 	
+	public void setStatus(String status) {
+		this.status=status;
+	}
 	@Override
 	public String toString() {
 		return "User [user_id=" + user_id + ", username=" + username + ", password=" + password + ", access_level="
@@ -98,9 +101,11 @@ public class User {
 				+ ", status=" + status + "]";
 	}
 
-	public void setStatus(String status) {
-		this.status=status;
+	public void selectUser(int user_id) {
+		// TODO Auto-generated method stub
+		
 	}
+
 
 
 }

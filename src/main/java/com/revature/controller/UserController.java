@@ -10,10 +10,11 @@ public class UserController implements UserInputInterface, LoginInterface{
 	
 	private Scanner sc;
 	private LoginService loginService;
-	MainMenu menu = new MainMenu();
-
+	private static AdminMenu adminmenu = new AdminMenu();
+	private static EmployeeMenu employeemenu = new EmployeeMenu();
+	private static CustomerMenu customermenu = new CustomerMenu();
 	
-	public UserController(Scanner sc, LoginService loginService, MainMenu mainmenu) {
+	public UserController(Scanner sc, LoginService loginService) {
 		super();
 		this.sc=sc;
 		this.loginService=loginService;
@@ -48,10 +49,19 @@ public class UserController implements UserInputInterface, LoginInterface{
 		User user = validateLogin(username, password);
 		
 		if(user != null) {
-			
 			System.out.println("Success");
 			System.out.println(user);
-			menu.menu(null);
+			switch (user.getAccess_level()) {
+			case 1: System.out.print(" Welcome Customer \n" ); 
+				customermenu.menu();
+				break;
+			case 2: System.out.print(" Welcome Employee \n" );
+				employeemenu.menu();
+				break;
+			case 3: System.out.print(" Welcome Administrator \n" );
+				adminmenu.menu();
+				break;
+			}
 		}else {
 			System.out.println("Fail");
 	}

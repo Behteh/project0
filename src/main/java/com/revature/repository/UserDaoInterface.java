@@ -5,12 +5,17 @@ import com.revature.services.models.User;
 
 public interface UserDaoInterface {
 	
-	public User createUser(User newUser);
 	
 	public User getUser(String username, String password) throws UserNotFoundException;
 
-	User updateUser(User updatedUser);
+	
+	public User selectUser(int user_id) throws UserNotFoundException;
 
-	boolean deleteUser(User user);	
+	User createUser(int user_id, String username, String password, int access_level, String firstname,
+			String lastname, String email, String status);
+
+	boolean deleteUser(int user_id);
+
+	User updateUser(int user_id, String status);	
 
 }

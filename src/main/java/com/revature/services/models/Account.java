@@ -4,8 +4,9 @@ import java.util.Objects;
 
 public class Account {
 	private int accountID;
+	private double accountnumber;
 	private double accountbalance;
-	private int accountnumber;
+	
 	
 	public int getAccountID() {
 		return accountID;
@@ -16,10 +17,10 @@ public class Account {
 	public double getAccountBalance() {
 		return accountbalance;
 	}
-	public void setAccountBalance(double balance) {
+	public void setAccountBalance(double balance, double accountbalance) {
 		this.accountbalance = accountbalance;
 	}
-	public int getAccountNumber() {
+	public double getAccountNumber() {
 		return accountnumber;
 	}
 	public void setAccountNumber(Integer accountnumber) {
@@ -51,11 +52,12 @@ public class Account {
 				&& Double.doubleToLongBits(accountbalance) == Double.doubleToLongBits(other.accountbalance)
 				&& accountnumber == other.accountnumber;
 	}
-	public Account(int accountID, double accountbalance, int accountnumber) {
+	public Account(int accountID, double accountbalance, double accountnumber) {
 		super();
 		this.accountID = accountID;
-		this.accountbalance = accountbalance;
 		this.accountnumber = accountnumber;
+		this.accountbalance = accountbalance;
+		
 	}
 
 
